@@ -1,0 +1,80 @@
+.navbar {
+    background-color: #343a40; /* Dark background for the navbar */
+  }
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #00aced; /* Change color on hover */
+  }
+
+  /* Jumbotron Styles (Carousel) */
+  .carousel-item {
+    height: 100vh; /* Full height */
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .carousel-caption h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .carousel-caption p {
+    font-size: 1.5rem;
+  }
+
+  /* Card Styles */
+  .card {
+    border: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+  }
+  .card-body {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  .btn-primary {
+    background-color: #00aced;
+    border-color: #00aced;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .btn-primary:hover {
+    background-color: #0077b5;
+    border-color: #0077b5;
+  }
+
+  /* Container and Layout */
+  .container {
+    padding: 40px 15px;
+  }
+
+  /* Additional Styling for Cards */
+  .row .col-md-4 {
+    margin-bottom: 30px;
+  }
