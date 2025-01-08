@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #343a40; /* Dark background for the navbar */
+    background-color: #343a40;
   }
   .navbar-brand {
     font-weight: bold;
@@ -8,73 +8,34 @@
     font-size: 18px;
   }
   .navbar-nav .nav-link:hover {
-    color: #00aced; /* Change color on hover */
+    color: #00aced; 
   }
 
-  /* Jumbotron Styles (Carousel) */
-  .carousel-item {
-    height: 100vh; /* Full height */
-    background-size: cover;
-    background-position: center;
-  }
-  .carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .carousel-caption h1 {
-    font-size: 4rem;
-    font-weight: bold;
-  }
-  .carousel-caption p {
-    font-size: 1.5rem;
-  }
 
-  /* Card Styles */
-  .card {
-    border: none;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
+  .main-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
   }
-  .card:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+  .thumbnail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
   }
-  .card-img-top {
-    border-radius: 10px 10px 0 0;
+  .thumbnail {
+    width: 100px;
+    height: 150px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
   }
-  .card-body {
-    background-color: #ffffff;
-    padding: 20px;
+  .thumbnail:hover {
+    opacity: 0.7;
   }
-  .card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
+  .text {
+    text-align: center; 
   }
-  .card-text {
-    font-size: 1rem;
-    color: #555;
-  }
-  .btn-primary {
-    background-color: #00aced;
-    border-color: #00aced;
-    font-size: 1rem;
-    font-weight: bold;
-  }
-  .btn-primary:hover {
-    background-color: #0077b5;
-    border-color: #0077b5;
-  }
-
-  /* Container and Layout */
-  .container {
-    padding: 40px 15px;
-  }
-
-  /* Additional Styling for Cards */
-  .row .col-md-4 {
-    margin-bottom: 30px;
+  .resize-text{
+    font-size: 30px;
   }

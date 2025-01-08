@@ -33,109 +33,29 @@
   </div>
 </nav>
 
-<!-- Jumbotron (Carousel) -->
-<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" style="background-image: url(img/jesper-tjader.avif);">
-      <div class="carousel-caption d-none d-md-block">
-        <h1>Jesper Tjader</h1>
-      </div>
-    </div>
-    <div class="carousel-item" style="background-image: url(img/keegan-kilbride-action_1.webp);">
-      <div class="carousel-caption d-none d-md-block">
-        <h1>Keegan Kilbride</h1>
-      </div>
-    </div>
-    <div class="carousel-item" style="background-image: url(img/Quinn_2.webp);">
-      <div class="carousel-caption d-none d-md-block">
-        <h1>Quinn The Goat</h1>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+
+
+<div>
+  <img id="mainImage" class="main-image" src="img/EB-250664-1005_Season-Eqpt_Winter-2025_Primer-Skis_Unisex_PS-2024-09-10_0026_1800x1800.webp" alt="Black Ski">
 </div>
 
-<!-- Cards Section with Ski-related images -->
-<div class="container py-5">
-  <div class="row">
-    <!-- Card 1 -->
-    <div class="col-md-4">
-      <div class="card">
-        <img src="img/Faction-Skis-2025-Prodigy-2-Topsheet-1x1.webp" class="card-img-top" alt="Ski Package 1">
-        <div class="card-body">
-          <h5 class="card-title">Faction Prodigy 2 </h5>
-          <p class="card-text">          </p>
-          <a href="#" class="btn btn-primary">       </a>
-        </div>
-      </div>
-    </div>
-    <!-- Card 2 -->
-    <div class="col-md-4">
-      <div class="card">
-        <img src="img/k2_2425_omen-team_KS240125_1.webp" class="card-img-top" alt="Ski Package 2">
-        <div class="card-body">
-          <h5 class="card-title">K2 Omen's</h5>
-          <p class="card-text">      </p>
-          <a href="#" class="btn btn-primary">    </a>
-        </div>
-      </div>
-    </div>
-    <!-- Card 3 -->
-    <div class="col-md-4">
-      <div class="card">
-        <img src="img/line_2425_honey-badger_LN24019000_1.webp" class="card-img-top" alt="Ski Package 3">
-        <div class="card-body">
-          <h5 class="card-title">Line Honey Badger</h5>
-          <p class="card-text">      </p>
-          <a href="#" class="btn btn-primary">      </a>
-        </div>
-      </div>
-    </div>
-    <!-- Card 4 -->
-    <div class="col-md-4 mt-4">
-      <div class="card">
-        <img src="img/line_2425_tom-wallisch-pro_LN24018900_1.webp" class="card-img-top" alt="Snowboard Package">
-        <div class="card-body">
-          <h5 class="card-title">Line Tom wallisch Pros</h5>
-          <p class="card-text">       </p>
-          <a href="#" class="btn btn-primary">      </a>
-        </div>
-      </div>
-    </div>
-    <!-- Card 5 -->
-    <div class="col-md-4 mt-4">
-      <div class="card">
-        <img src="img/RA0000620__861188344cff1d4a05b075846b4cbc60.webp" class="card-img-top" alt="Snow Resort Stay">
-        <div class="card-body">
-          <h5 class="card-title">       </h5>
-          <p class="card-text">       </p>
-          <a href="#" class="btn btn-primary">       </a>
-        </div>
-      </div>
-    </div>
-    <!-- Card 6 -->
-    <div class="col-md-4 mt-4">
-      <div class="card">
-        <img src="img/RA0000684__9ed28119b8c50d181c814e93953f47fb.webp" class="card-img-top" alt="Ski Equipment Rental">
-        <div class="card-body">
-          <h5 class="card-title">       </h5>
-          <p class="card-text">      </p>
-          <a href="#" class="btn btn-primary">      </a>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="text">
+  <p>These park skis are built for freestyle skiers who demand both performance and durability in the terrain park. Featuring a playful yet responsive design, they excel at jumps, rail slides, and technical tricks. With a lightweight core and reinforced construction, they deliver the right balance of stability and pop for aggressive park sessions. The symmetrical twin-tip shape allows for easy switch riding, while a durable base ensures smooth slides and quick edge-to-edge transitions. Designed with a rockered profile for better float in soft snow and controlled landings, these skis provide the confidence and versatility needed to push your limits in the park.</p>
 </div>
 
-<!-- Bootstrap JS and dependencies -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-</body>
-</html>
+<div class="thumbnail-container">
+  <img class="thumbnail" src="img/Faction-Skis-2025-Prodigy-2-Topsheet-1x1.webp" alt="Ski 1" onclick="changeImage('img/Faction-Skis-2025-Prodigy-2-Topsheet-1x1.webp')">
+  <img class="thumbnail" src="img/k2_2425_omen-team_KS240125_1.webp" alt="Ski 2" onclick="changeImage('img/k2_2425_omen-team_KS240125_1.webp')">
+  <img class="thumbnail" src="img/line_2425_honey-badger_LN24019000_1.webp" alt="Ski 3" onclick="changeImage('img/line_2425_honey-badger_LN24019000_1.webp')">
+  <img class="thumbnail" src="img/line_2425_tom-wallisch-pro_LN24018900_1.webp" alt="Ski 4" onclick="changeImage('img/line_2425_tom-wallisch-pro_LN24018900_1.webp')">
+  <img class="thumbnail" src="img/RA0000620__861188344cff1d4a05b075846b4cbc60.webp" alt="Ski 5" onclick="changeImage('img/RA0000620__861188344cff1d4a05b075846b4cbc60.webp')">
+  <img class="thumbnail" src="img/RA0000684__9ed28119b8c50d181c814e93953f47fb.webp" alt="Ski 6" onclick="changeImage('img/RA0000684__9ed28119b8c50d181c814e93953f47fb.webp')">
+</div>
+
+
+
+<script>
+  function changeImage(skiImage) {
+    document.getElementById('mainImage').src = skiImage;
+  }
+</script>
